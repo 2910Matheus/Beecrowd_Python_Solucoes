@@ -18,36 +18,40 @@ Cada problema na plataforma segue uma estrutura padrão, que inclui:
 - *Restrições*: Limites para variáveis e execuções (por exemplo, número máximo de operações ou valores).
 - *Exemplo de Entrada/Saída*: Exemplos que ilustram claramente como a entrada será fornecida e o que se espera na saída.
 
+
+### Entrada até EOF
+EOF, ou "End-Of-File" (Final do Arquivo), indica que a leitura da entrada padrão continuará até que não haja mais dados para serem lidos. Você pode conferir alguns exemplos específicos de como lidar com esse tipo de entrada em diferentes linguagens [nesta página da beecrowd](https://www.beecrowd.com.br/judge/pt/faqs/about/problems), na seção "O que é uma entrada que termina em EOF?".
+
 ### Exemplo de Problema (Beecrowd)
 
 *Descrição do problema*: Dado dois números inteiros, calcule sua soma.
 
-*Entrada*: Dois números inteiros, A e B (−1000 ≤ A, B ≤ 1000).
+*Entrada*: Dois números inteiros,  A e B (−1000 ≤ A, B ≤ 1000).
 
 *Saída*: Um número inteiro correspondente à soma de A e B.
 
 *Exemplo*:
 
 Entrada
-
+```bash
 3 5
-
+```
 
 Saída
-
+```bash
 8
-
+```
 
 ## Estrutura do Repositório
 
 O repositório está organizado de forma simples, com cada pasta ou arquivo representando uma solução de um problema específico. A estrutura básica é a seguinte:
 
-
+```bash
 ├── README.md        # Explicações e detalhes sobre o repositório
 ├── Problema_1000.py # Nome do problema e a linguagem (Python)
 ├── Problema_1001.py # Nome do problema e a linguagem (Python)
 └── Problema_1002.py # Mais problemas resolvidos
-
+```
 
 Cada arquivo Python segue o nome do problema no Beecrowd, permitindo fácil identificação e navegação.
 
