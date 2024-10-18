@@ -69,9 +69,9 @@ Você pode baixar o Python [aqui](https://www.python.org/downloads/).
 
 No terminal, navegue até o diretório onde o arquivo está salvo e use o seguinte comando:
 
-bash
+```bash
 python Problema_1000.py
-
+```
 
 ## Contribuições
 
