@@ -1,4 +1,5 @@
 # Soluções Beecrowd em Python
+![image](https://github.com/user-attachments/assets/fd8e1502-54d5-4488-a0b3-e4a066e4b87f)
 
 ## Visão Geral
 
@@ -12,25 +13,26 @@ O Beecrowd é uma plataforma online voltada para a prática de algoritmos e prog
 
 Cada problema na plataforma segue uma estrutura padrão, que inclui:
 
-- *Descrição do Problema*: Um enunciado explicando o contexto do problema e o que se espera como solução. A descrição detalha claramente o objetivo e o resultado desejado.
-- *Entrada*: Especifica o formato e as restrições dos dados de entrada. Geralmente, esses dados são fornecidos por meio de stdin (padrão de entrada), como via teclado ou arquivo.
-- *Saída*: Define o formato e o conteúdo exato que deve ser exibido como saída (stdout), incluindo possíveis formatações ou número de casas decimais.
-- *Restrições*: Limites para variáveis e execuções (por exemplo, número máximo de operações ou valores).
-- *Exemplo de Entrada/Saída*: Exemplos que ilustram claramente como a entrada será fornecida e o que se espera na saída.
+- **Descrição do Problema**: Um enunciado explicando o contexto do problema e o que se espera como solução. A descrição detalha claramente o objetivo e o resultado desejado.
+- **Entrada**: Especifica o formato e as restrições dos dados de entrada. Geralmente, esses dados são fornecidos por meio de stdin (padrão de entrada), como via teclado ou arquivo.
+- **Saída**: Define o formato e o conteúdo exato que deve ser exibido como saída (stdout), incluindo possíveis formatações ou número de casas decimais.
+- **Restrições**: Limites para variáveis e execuções (por exemplo, número máximo de operações ou valores).
+- **Exemplo de Entrada/Saída**: Exemplos que ilustram claramente como a entrada será fornecida e o que se espera na saída.
 
 
 ### Entrada até EOF
+
 EOF, ou "End-Of-File" (Final do Arquivo), indica que a leitura da entrada padrão continuará até que não haja mais dados para serem lidos. Você pode conferir alguns exemplos específicos de como lidar com esse tipo de entrada em diferentes linguagens [nesta página da beecrowd](https://www.beecrowd.com.br/judge/pt/faqs/about/problems), na seção "O que é uma entrada que termina em EOF?".
 
 ### Exemplo de Problema (Beecrowd)
 
-*Descrição do problema*: Dado dois números inteiros, calcule sua soma.
+**Descrição do problema**: Dado dois números inteiros, calcule sua soma.
 
-*Entrada*: Dois números inteiros,  A e B (−1000 ≤ A, B ≤ 1000).
+**Entrada**: Dois números inteiros,  A e B (−1000 ≤ A, B ≤ 1000).
 
-*Saída*: Um número inteiro correspondente à soma de A e B.
+**Saída**: Um número inteiro correspondente à soma de A e B.
 
-*Exemplo*:
+**Exemplo**:
 
 Entrada
 ```bash
