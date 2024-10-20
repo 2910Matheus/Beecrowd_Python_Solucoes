@@ -1,4 +1,5 @@
 ## beecrowd | 1000
+"""
   Hello World
   
 Bem-vindo ao beecrowd!
@@ -10,7 +11,6 @@ Este problema não possui nenhuma entrada.
 
 Saída
 Você deve imprimir a mensagem "Hello World!" e em seguida o final de linha, conforme o exemplo abaixo.
+"""
 
-```
-teste
-```
+print('Hello World!')
